@@ -15,9 +15,9 @@ class DemoApplicationTests {
 
     @Test
     void sampleUnitTest() {
-        int expected = 10;
-        int actual = 5 + 5;
-        org.junit.jupiter.api.Assertions.assertEquals(expected, actual, "Math calculation should match");
-    }
+    int expected = 999; // Cố tình làm đứt test
+    int actual = 5 + 5;
+    org.junit.jupiter.api.Assertions.assertEquals(expected, actual, "Math calculation should match");
+}
 
 }
