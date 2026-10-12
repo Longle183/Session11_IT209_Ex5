@@ -190,5 +190,9 @@ git push -u origin main --force
 1. Tệp kịch bản: [.github/workflows/ci.yml](file:///.github/workflows/ci.yml).
 2. Tệp [Dockerfile](file:///Dockerfile) và mã nguồn Spring Boot kèm unit test.
 3. Ảnh chụp màn hình:
+<img width="1917" height="928" alt="image" src="https://github.com/user-attachments/assets/606026a6-bc0b-406f-9fee-7c93c49eb221" />
    - **Ảnh 1:** Biểu đồ sơ đồ Workflow trên GitHub Actions hiển thị mũi tên nối từ job `test` sang job `docker-build` (Cả 2 jobs đều xanh).
+  
+<img width="1917" height="858" alt="image" src="https://github.com/user-attachments/assets/1c90c8c5-0082-4d8e-be2c-1473eee5e6b4" />
+
    - **Ảnh 2:** Biểu đồ Workflow khi test bị đứt (Job `test` màu đỏ, job `docker-build` màu xám - Skipped).
